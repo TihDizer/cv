@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff; /* Белый фон */
+    color: #111; /* Черный текст */
+}
+
+header {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.04);
+}
+
+h2 {
+    border-bottom: 2px solid #111;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+    color: #111;
+}
+
+/* Для блока "Обо мне" (если есть класс) */
+.about {
+    text-align: justify;
+}
+
+/* Если нет отдельного класса для "Обо мне",
+добавьте его в HTML-код соответствующему section или p */
