@@ -1,37 +1,47 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "JetBrains Mono", "Open Sans", Arial, sans-serif;
+    background: #e4e7eb;
+    color: #333;
     margin: 0;
-    background: #fff; /* Белый фон */
-    color: #111; /* Черный текст */
 }
 
 header {
-    background: #111;
+    background: #444950;
     color: #fff;
     text-align: center;
     padding: 2rem 1rem;
+    letter-spacing: 1px;
 }
 
 section {
     max-width: 800px;
     margin: 2rem auto;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.04);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(44, 49, 80, 0.08);
 }
 
 h2 {
-    border-bottom: 2px solid #111;
+    border-bottom: 2px solid #444950;
+    color: #22242a;
     padding-bottom: 0.3rem;
-    margin-bottom: 1rem;
-    color: #111;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.5px;
 }
 
-/* Для блока "Обо мне" (если есть класс) */
+ul {
+    padding-left: 24px;
+}
+
 .about {
     text-align: justify;
 }
 
-/* Если нет отдельного класса для "Обо мне",
-добавьте его в HTML-код соответствующему section или p */
+.contacts a {
+    color: #667eea;
+    text-decoration: none;
+}
+.contacts a:hover {
+    text-decoration: underline;
+}
